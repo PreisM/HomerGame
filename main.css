@@ -1,0 +1,170 @@
+@font-face {
+    font-family: simpsonsfonts;
+    src: url('img/SimpsonfontDEMO.otf');
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'simpsonsfonts';
+    background-color: wheat;
+}
+
+#container {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    border: 1px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url('img/bg.png');
+    top: 1%;
+}
+
+#score_help {
+    text-align: center;
+    font-size: 24px;
+    background-color: #FFD90F;
+}
+
+#logo {
+    background-image: url('img/logo.png');
+    height: 100px;
+    width: 130px;
+    background-size: cover;
+    float: left;
+}
+
+#playsound {
+    text-align: right;
+    font-size: 22px;
+    top: 5%;
+}
+
+#branch {
+    position: absolute;
+    height: 2%;
+    width: 100%;
+    background-color: brown;
+    top: 23%;
+}
+
+.bart {
+    position: absolute;
+    height: 20%;
+    width: 8%;
+    top: 3%;
+    background: url('img/bart.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#bart1 {
+    left: 26%
+}
+
+#bart2 {
+    left: 46%
+}
+
+#bart3 {
+    left: 66%
+}
+
+.donut {
+    position: absolute;
+    height: 10.8%;
+    width: 4.95%;
+    background-image: url('img/donut.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+#donut1 {
+    left: 28%;
+    top: 20%;
+}
+
+#donut2 {
+    left: 48%;
+    top: 26%;
+}
+
+#donut3 {
+    left: 68%;
+    top: 15%;
+}
+
+.bigdonut {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    height: 7%;
+    width: 7%;
+    background: url('img/bigdonut.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 11;
+}
+
+#bigdonut1 {
+    left: 28%
+}
+
+#bigdonut2 {
+    left: 48%
+}
+
+#bigdonut3 {
+    left: 68%
+}
+
+#floor {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: darkblue;
+    bottom: 0;
+    z-index: 10;
+}
+
+#homer {
+    height: 100px;
+    width: 85px;
+    position: absolute;
+    bottom: 5px;
+    background: url("img/homer1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+
+#restart {
+    border: 0;
+    position: absolute;
+    border-radius: 22px;
+    height: 20%;
+    width: 20%;
+    background-color: #FFD90F;
+    color: white;
+    top: 45%;
+    left: 40%;
+    font-size: 37px;
+    display: none;
+    cursor: pointer;
+    font-family: 'simpsonsfonts';
+    text-align: right;
+}
+
+#imgrestart {
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    right: 65%;
+}
