@@ -21,6 +21,9 @@ body {
     border-radius: 10px;
     overflow: hidden;
     background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     top: 1%;
 }
 
